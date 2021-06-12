@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Implementation-Title: SpringbootV1
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.infotrends.in.SpringbootV1.DemoApplication
+Created-By: Maven Integration for Eclipse
+
