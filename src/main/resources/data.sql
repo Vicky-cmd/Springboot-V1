@@ -1,0 +1,1 @@
+insert into users(user_id, Fullname, Username, Password, is_Admin_User, Timestamp, is_oauth_account, is_account_active) values(0, 'Administrator', 'admin@admin.com', '$2a$10$JYAXM9u6RrsscCkszKJLFuekzhOCxL8swlYa/QLqPJJGXE5BkHuFe', 'Y', now(), 'N', 'Y');

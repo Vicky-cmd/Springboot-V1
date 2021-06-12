@@ -1,0 +1,154 @@
+.defuserPic {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: purple;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bolder;
+	line-height: 75px;
+}
+
+.userInfoMain{
+	width: 75%;
+	padding: 20px;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.seperator-white {
+	color: white;
+	xborder: 0px;
+	border-top: 1px solid white; 
+	width: 75%; 
+	margin: auto;
+}
+
+.articlesPage{	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 75%;
+	margin: auto;
+	height: fit-content;
+	box-shadow: 2px 5px 50px 10px grey;
+	border-radius: 5px;
+}
+
+.article-title {
+	font-family: sans-serif;
+	width: fit-content;
+	margin: auto;
+	color: black;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: xx-large;
+}
+
+.commentsSection{
+	width: 80%;
+	margin: auto;
+	
+}
+
+.comment-main {
+	width: 90%;
+	margin: auto;
+}
+.comment-body {
+	width: 95%;
+	margin: auto;
+	
+}
+
+.sub-comment-main {
+	width: 90%;
+	margin: auto;
+	border-left: 5px solid grey;
+	border-radius: 5px 0px 0px 5px;
+	padding: 10px;
+}
+.sub-comment-body {
+	width: 95%;
+	margin: auto;
+	
+}
+
+.commentsBar {
+	width: 90%;
+	margin: auto;
+}
+
+.comment-date {
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.commentsBar {
+	border: 0px;
+	outline:0;
+	box-shadow: none; 
+	background: rgba(255, 255, 255, 0); 
+	border-radius: 10px; 
+	border: 2px solid black; 
+	color: white;
+}
+
+.commentsBar:hover {
+	/*border: 0px;*/
+	outline:0;
+	box-shadow: none; 
+	background: rgba(255, 255, 255, 0); 
+	/*border-radius: 0px;*/ 
+	border: 2px solid #ea9a00; 
+	color: white;
+}
+
+
+
+.context-menu__link {
+  display: block;
+  padding: 4px 12px;
+  color: #0066aa;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+}
+
+.context-menu__link:hover {
+  color: #fff;
+  background-color: #0066aa;
+}
+
+.context-menu__link-selected {
+  display: block;
+  padding: 4px 12px;
+  color: #fff;
+  background-color: grey;
+  text-decoration: none;
+}
+
+.vertical-seperator {
+	border-right: 2px solid black;
+	height: 75%;
+	width: 0px;
+	margin-right: 5px;
+	display: inline;
+}
+
+
+.link {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+
+.link-active {
+    visibility: visible;
+}
+
+

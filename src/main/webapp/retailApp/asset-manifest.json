@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/retailApp/static/css/main.fd0f2303.chunk.css",
+    "main.js": "/retailApp/static/js/main.90d37e6e.chunk.js",
+    "main.js.map": "/retailApp/static/js/main.90d37e6e.chunk.js.map",
+    "runtime-main.js": "/retailApp/static/js/runtime-main.c0f9f9bd.js",
+    "runtime-main.js.map": "/retailApp/static/js/runtime-main.c0f9f9bd.js.map",
+    "static/js/2.8df4b0c4.chunk.js": "/retailApp/static/js/2.8df4b0c4.chunk.js",
+    "static/js/2.8df4b0c4.chunk.js.map": "/retailApp/static/js/2.8df4b0c4.chunk.js.map",
+    "index.html": "/retailApp/index.html",
+    "static/css/main.fd0f2303.chunk.css.map": "/retailApp/static/css/main.fd0f2303.chunk.css.map",
+    "static/js/2.8df4b0c4.chunk.js.LICENSE.txt": "/retailApp/static/js/2.8df4b0c4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/retailApp/static/media/background-image.94c41406.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0f9f9bd.js",
+    "static/js/2.8df4b0c4.chunk.js",
+    "static/css/main.fd0f2303.chunk.css",
+    "static/js/main.90d37e6e.chunk.js"
+  ]
+}

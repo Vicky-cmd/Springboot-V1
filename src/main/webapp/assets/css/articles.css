@@ -1,0 +1,86 @@
+.editor {
+	width: 98%;
+}
+
+.editor-text-largest {
+	font-size: xx-large;
+	font-family: sans;
+	font-weight: bolder;
+}
+
+.editor-text-larger {
+	font-size: x-large;
+	font-family: sans;
+	font-weight: bold;
+}
+
+.editor-text-normal {
+	font-size: medium;
+	font-weight: normal;
+}
+
+.editor-quotes {
+	font-style: italic;
+	padding:5px;
+	margin: auto;
+	border-left: 3px solid black;
+	border-radius: 2px 0px 0px 2px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.editor-quotes-center {
+	font-style: italic;
+	padding:5px;
+	margin: auto;
+	border-left: 3px solid black;
+	border-radius: 2px 0px 0px 2px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.editor-quotes-right {
+	font-style: italic;
+	padding:5px;
+	margin: auto;
+	border-right: 3px solid black;
+	border-radius: 0px 2px 2px 0px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+.editor-quotes-justify {
+	font-style: italic;
+	padding:5px;
+	margin: auto;
+	border-left: 3px solid black;
+	border-radius: 2px 0px 0px 2px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+.editor-quotes-highlight {
+	font-family: serif;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: x-large;
+	text-align: center;
+}
+
+.img-editor-center {
+        text-align: center;
+}
+
+.img-editor-left {
+		width: fit-content;
+		float: left;
+		padding: 10px;
+        /*text-align: left;*/
+}
+
+.img-editor-right {
+		width: fit-content;
+		float: right;
+		padding: 10px;
+        /*text-align: right;*/
+}
