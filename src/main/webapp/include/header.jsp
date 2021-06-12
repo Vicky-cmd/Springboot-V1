@@ -71,7 +71,7 @@ pageEncoding="ISO-8859-1"%>
 	                    </div>
 	                </div>
                 </c:if>
-	            <a href="/retailApp/cart" style="whiteSpace: nowrap" class="nav-item nav-link btn btn-link">
+	            <a href="/retailApp" style="whiteSpace: nowrap" class="nav-item nav-link btn btn-link">
 	                <i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;
 	                Shopping App
 	            </a>    
