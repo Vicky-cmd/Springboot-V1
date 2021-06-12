@@ -35,7 +35,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 			.permitAll();
 //    	httpSecurity.cors().configurationSource(corsConfigurationSource());
     	httpSecurity.csrf().disable();
-//        httpSecurity.headers().frameOptions()
+        httpSecurity.headers().frameOptions().disable();
 //        httpSecurity.sessionManagement()
 //        	.invalidSessionUrl("/authenticate");
         
