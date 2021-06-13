@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/retailApp/static/css/main.f3f7c33e.chunk.css",
-    "main.js": "/retailApp/static/js/main.d5b3dfdb.chunk.js",
-    "main.js.map": "/retailApp/static/js/main.d5b3dfdb.chunk.js.map",
+    "main.js": "/retailApp/static/js/main.58e6bb6b.chunk.js",
+    "main.js.map": "/retailApp/static/js/main.58e6bb6b.chunk.js.map",
     "runtime-main.js": "/retailApp/static/js/runtime-main.c0f9f9bd.js",
     "runtime-main.js.map": "/retailApp/static/js/runtime-main.c0f9f9bd.js.map",
     "static/js/2.8ee65384.chunk.js": "/retailApp/static/js/2.8ee65384.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c0f9f9bd.js",
     "static/js/2.8ee65384.chunk.js",
     "static/css/main.f3f7c33e.chunk.css",
-    "static/js/main.d5b3dfdb.chunk.js"
+    "static/js/main.58e6bb6b.chunk.js"
   ]
 }
