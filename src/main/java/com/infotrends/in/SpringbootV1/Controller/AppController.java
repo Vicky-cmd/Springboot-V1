@@ -112,7 +112,7 @@ public class AppController {
 	
 	
 	
-	@GetMapping(value = {"/retailApp", "/retailApp/Items", "/retailApp/cart", "/retailApp/viewCart"})  
+	@GetMapping(value = {"/retailApp", "/retailApp/items", "/retailApp/cart", "/retailApp/viewCart"})  
 	public String retailApp()   
 	{
 		System.out.println("inside Controller => /retailApp**");

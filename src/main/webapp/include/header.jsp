@@ -5,7 +5,7 @@ pageEncoding="ISO-8859-1"%>
 <html>
 <head>
 	<title>${param.title}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, height=device-height">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="icon" type="logo.jpg" href="/assets/images/logo.jpg">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -31,9 +31,9 @@ pageEncoding="ISO-8859-1"%>
 				
 				<%
 					if(checkLogin){
-						out.print("<a href=\"/authenticate/logout\" class=\"linkbutton\">LOGOUT</a>");
+						out.print("<a href=\"/authenticate/logout\" class=\"linkbutton\" style=\"right: 0; position: absolute;\">LOGOUT</a>");
 					} else {
-						out.print("<a href=\"/authenticate\" class=\"linkbutton\">LOGIN</a>");				
+						out.print("<a href=\"/authenticate\" class=\"linkbutton\" style=\"right: 0; position: absolute;\">LOGIN</a>");				
 					}
 				%>
 				
@@ -71,7 +71,7 @@ pageEncoding="ISO-8859-1"%>
 	                    </div>
 	                </div>
                 </c:if>
-	            <a href="/retailApp" style="whiteSpace: nowrap" class="nav-item nav-link btn btn-link">
+	            <a href="/retailApp" style="whiteSpace: nowrap" class="nav-item nav-link">
 	                <i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;
 	                Shopping App
 	            </a>    
