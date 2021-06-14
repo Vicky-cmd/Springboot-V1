@@ -17,7 +17,7 @@ public class FiltersConfig {
     	
        FilterRegistrationBean<MemberFilter> registrationBean = new FilterRegistrationBean<>();
        registrationBean.setFilter(new MemberFilter());
-       registrationBean.addUrlPatterns("/membersdashboard", "/membersdashboard/*", "/retailApp", "/retailApp/*");
+       registrationBean.addUrlPatterns("/membersdashboard", "/membersdashboard/*", "/retailApp", "/retailApp/*", "/userInfo", "/userInfo**", "/search", "/search**");
        registrationBean.addInitParameter("excludedUrls", excludeUrls);
        return registrationBean;
     }

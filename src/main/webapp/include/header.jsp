@@ -58,7 +58,7 @@ pageEncoding="ISO-8859-1"%>
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Articles</a>
                     <div class="dropdown-menu">
                         <a href="/membersdashboard/createNewArticle" class="dropdown-item">Create Article</a>
-                        <a href="#" class="dropdown-item">View Articles</a>
+                        <a href="/about-me" class="dropdown-item">Creator's Info</a>
                     </div>
                 </div>
                 <c:if test="<%= request.getSession().getAttribute(\"isAdmin\")!=null && request.getSession().getAttribute(\"isAdmin\").toString().equalsIgnoreCase(\"Y\") %>">

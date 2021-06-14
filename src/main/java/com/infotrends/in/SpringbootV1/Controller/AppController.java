@@ -127,4 +127,13 @@ public class AppController {
 		
 		return "error.jsp";
 	}
+	
+	@GetMapping(value = {"/about-me", "/about-me/jokes", "/retailApp/musicMatch", "/about-me/reminderPro"})  
+	public String aboutMeMapper()   
+	{
+		System.out.println("inside Controller => /about-me**");
+		return "/about-me/index.html";
+
+	}
+	
 }

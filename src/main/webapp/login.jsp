@@ -147,7 +147,7 @@ pageEncoding="ISO-8859-1"%>
 					</tr>
 				</table>
 				<h5 style="font-family: sans-serif; font-weight: bolder;">Continue with</h5>
-				<button class="btn btn-danger" onclick="location.href='https://accounts.google.com/o/oauth2/auth?scope=profile email&redirect_uri=http://localhost:8081/authenticate/google/requestToken/processResponse&response_type=code&client_id=293427061737-v7v5b0i75i8cnb9bc092354auth3qgmg.apps.googleusercontent.com&approval_prompt=force';" style="vertical-align: middle; text-align: center"><i class="fa fa-google" style="font-size:24px"></i>  <b style="font-size:18px">Google</b></button>
+				<button class="btn btn-danger" onclick="location.href='https://accounts.google.com/o/oauth2/auth?scope=profile email&redirect_uri=https://infotrends-media.herokuapp.com/authenticate/google/requestToken/processResponse&response_type=code&client_id=293427061737-v7v5b0i75i8cnb9bc092354auth3qgmg.apps.googleusercontent.com&approval_prompt=force';" style="vertical-align: middle; text-align: center"><i class="fa fa-google" style="font-size:24px"></i>  <b style="font-size:18px">Google</b></button>
 			</div>
 			
 		</div>

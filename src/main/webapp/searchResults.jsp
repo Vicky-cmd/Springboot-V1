@@ -36,10 +36,9 @@ align-items: center;
 			
 			out.print("<h1 class=\"carouselCustomcss\">Users</h1>");
 			if(usersLst!=null && usersLst.size()>0) {
-				out.print("<div class=\"carouselCustomcss login\"><ul><div class=\"container\"><div class=\"row\">");
-				out.println("<div class=\"col-sm\">");
+				out.print("<div class=\"carouselCustomcss login\" style=\"width: 80%; max-width: 800px\"><div class=\"container\"><div class=\"row\">");
+				out.println("<div class=\"col-sm-12 col-md-6\">");
 				for(int i=0; i<(usersLst.size()/2)+1; i++) {
-			    	out.print("<li>");
 			    	out.print("<a href=\"/userInfo?userId=" + usersLst.get(i).getId() + "\">" + usersLst.get(i).getFullname() + "</a><br>");
 			    	out.print("<p>" + usersLst.get(i).getUsername() + "</p>");
 			    	int taggedCommCount = 0;
@@ -47,15 +46,22 @@ align-items: center;
 				    	taggedCommCount = usersLst.get(i).getCommentsHistory().size();
 				    }
 				    out.print("<i class=\"fas fa-comment-alt\" ></i><span>  "+ taggedCommCount +"</span>");
-			    	out.print("</li>");
+			    	out.print("<hr />");
 				}
 				out.println("</div>");
-				out.println("<div class=\"col-sm\">");
+				out.println("<div class=\"col-sm-12 col-md-6\">");
 				for(int i=(usersLst.size()/2)+1; i<usersLst.size(); i++) {
-			    	out.print("<li><a href=\"/userInfo?userId=" + usersLst.get(i).getId() + "\">" + usersLst.get(i).getFullname() + "</a></li>");
+			    	out.print("<a href=\"/userInfo?userId=" + usersLst.get(i).getId() + "\">" + usersLst.get(i).getFullname() + "</a>");
+			    	out.print("<p>" + usersLst.get(i).getUsername() + "</p>");
+			    	int taggedCommCount = 0;
+				    if(usersLst.get(i).getCommentsHistory()!=null) {
+				    	taggedCommCount = usersLst.get(i).getCommentsHistory().size();
+				    }
+				    out.print("<i class=\"fas fa-comment-alt\" ></i><span>  "+ taggedCommCount +"</span>");
+			    	out.print("<hr />");
 				}
 				out.println("</div>");
-			    out.print("</div></div></ul></div>");
+			    out.print("</div></div></div>");
 			}
 			out.print("<br>");
 			out.print("<hr>");
