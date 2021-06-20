@@ -1,6 +1,7 @@
 function displaySigninPage() { 
-	var register_user = "${param.register_user}";
-	console.log(register_user);
+	let params = (new URL(document.location)).searchParams;
+	var register_user = params.get("register_user");
+	console.log("Display Sign Up Page => ",register_user);
 	if(register_user == "true") {
 		document.getElementById("signUpForm").style.display = "block";
 		document.getElementById("loginForm").style.display = "none";
