@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/retailApp/static/css/main.f3f7c33e.chunk.css",
-    "main.js": "/retailApp/static/js/main.58e6bb6b.chunk.js",
-    "main.js.map": "/retailApp/static/js/main.58e6bb6b.chunk.js.map",
+    "main.js": "/retailApp/static/js/main.ce2a1360.chunk.js",
+    "main.js.map": "/retailApp/static/js/main.ce2a1360.chunk.js.map",
     "runtime-main.js": "/retailApp/static/js/runtime-main.c0f9f9bd.js",
     "runtime-main.js.map": "/retailApp/static/js/runtime-main.c0f9f9bd.js.map",
-    "static/js/2.8ee65384.chunk.js": "/retailApp/static/js/2.8ee65384.chunk.js",
-    "static/js/2.8ee65384.chunk.js.map": "/retailApp/static/js/2.8ee65384.chunk.js.map",
+    "static/js/2.720285e8.chunk.js": "/retailApp/static/js/2.720285e8.chunk.js",
+    "static/js/2.720285e8.chunk.js.map": "/retailApp/static/js/2.720285e8.chunk.js.map",
     "index.html": "/retailApp/index.html",
     "static/css/main.f3f7c33e.chunk.css.map": "/retailApp/static/css/main.f3f7c33e.chunk.css.map",
-    "static/js/2.8ee65384.chunk.js.LICENSE.txt": "/retailApp/static/js/2.8ee65384.chunk.js.LICENSE.txt",
+    "static/js/2.720285e8.chunk.js.LICENSE.txt": "/retailApp/static/js/2.720285e8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/retailApp/static/media/background-image.94c41406.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c0f9f9bd.js",
-    "static/js/2.8ee65384.chunk.js",
+    "static/js/2.720285e8.chunk.js",
     "static/css/main.f3f7c33e.chunk.css",
-    "static/js/main.58e6bb6b.chunk.js"
+    "static/js/main.ce2a1360.chunk.js"
   ]
 }
