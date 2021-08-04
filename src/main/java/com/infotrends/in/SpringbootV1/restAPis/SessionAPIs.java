@@ -42,7 +42,7 @@ public class SessionAPIs {
 				int userId = Integer.parseInt(session.getAttribute("userId").toString());
 				String username = session.getAttribute("username").toString();
 				String fullname = session.getAttribute("fullname").toString();
-				String isAdmin = session.getAttribute("isAdmin").toString();
+				String isAdmin = session.getAttribute("isAdmin")!=null?session.getAttribute("isAdmin").toString():"";
 				resp.put("userId", userId);
 				resp.put("username", username);
 				resp.put("fullname", fullname);
